@@ -1,23 +1,33 @@
 const path = require('path');
+const webpack = require('webpack');
 
-module.exports = {
-  devtool: "cheap-eval-source-map",
+module.exports =  {
+  devtool: "eval-source-map",
   entry:{
     main: [
+      'webpack-dev-server/client?http://localhost:8080',
+      'webpack/hot/only-dev-server',
       './src/main.js'
     ]
   },
   output: {
-    filename: './public/[name].js'
+    filename: '[name].js',
+    path: path.resolve(__dirname, '/public'),
+    publicPath: '/public/'
   },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.NamedModulesPlugin()
+  ],
   module: {
   loaders: [
     {
-      test: /\.jsx$/,
+      test: /\.jsx?$/,
       include: [
         path.resolve(__dirname, 'src')
       ],
-      loader: "babel-loader" // or "babel" because webpack adds the '-loader' automatically
+      loader: 'babel-loader'
     }
   ]
 }
