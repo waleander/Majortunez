@@ -1,6 +1,5 @@
+import ReactDOM from 'react-dom';
 import React from 'react';
-import Dom from 'react-dom';
-import App from './components/App.jsx'
+import App from './components/App.jsx';
 
-
-Dom.render(React.createElement(App), document.getElementById('container') );
+ReactDOM.render(React.createElement(App),  document.getElementById('container') );
