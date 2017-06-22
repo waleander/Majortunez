@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: 5.10.1
+
+dependencies:
+  override:
+    - npm install
+    - npm install webpack -g
+    - webpack
