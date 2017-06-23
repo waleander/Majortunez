@@ -1,13 +1,16 @@
+const path = require('path');
+const webpack = require('webpack');
+
 module.exports = {
   entry:{
     main: [
       './src/main.js'
     ]
-  }
+  },
   output: {
     path: path.join(__dirname, '/public'),
     filename: '[name].js',
-    publicPath: publicPath,
+    publicPath: '/public/',
     sourceMapFilename: '[name].map'
   },
 
@@ -27,5 +30,21 @@ module.exports = {
       },
       comments: false
     })
-  ]
+  ],
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
+
+  module: {
+    loaders: [
+      {
+        test: /\.js[x]?$/,
+        exclude: /node_modules/,
+        loaders: ['babel-loader?presets[]=react,presets[]=env']
+      },
+        // I am using SASS as Transpiler for style sheets
+      {test: /\.scss$/, loaders: ["style-loader", "css-loader", "sass-loader"]},
+
+    ]
+  }
 }
