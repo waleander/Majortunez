@@ -9,6 +9,6 @@ ReactDOM.render(React.createElement(App),  document.getElementById('container') 
 if (module.hot) {
   module.hot.accept(path.resolve(__dirname, '/components/App'), function() {
     console.log('Accepting the updated library module!');
-    render(App);
-  })
+    ReactDOM.render(App);
+  });
 }
