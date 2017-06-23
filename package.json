@@ -10,7 +10,7 @@
     "lint:watch": "esw -w src/**",
     "start": "npm run build:prod && NODE_ENV=production node server.js",
     "test": "mocha --compilers js:babel-core/register ./test/**/*.spec.js --require ignore-styles",
-    "postinstall": "webpack --config webpack.prod.config.js -p --progress --colors"
+    "postinstall": "webpack --config webpack.prod.js -p --progress --colors"
   },
   "author": "",
   "license": "ISC",
