@@ -5,7 +5,5 @@ machine:
 dependencies:
   override:
     - npm install
-    - npm install webpack -g
-    - npm install express -g
-    - npm i -g eslint eslint-watch
+    - npm test
     - npm start
