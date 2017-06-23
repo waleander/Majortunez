@@ -7,7 +7,7 @@ class App extends React.Component {
       messages: [
         'Hi there, how are you. Hope you are fine',
         'I am fine, and you. Where are you',
-        'well, thats cool, very very cool'
+        'well, thats cool, very very cool, cool'
       ]
     };
   }
