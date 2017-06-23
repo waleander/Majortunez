@@ -5,8 +5,9 @@ class App extends React.Component {
     super();
     this.state = {
       messages: [
-        'Hi there, how are you',
-        'I am fine, and you. Where are you'
+        'Hi there, how are you. Hope you are fine',
+        'I am fine, and you. Where are you',
+        'well, thats cool, very very cool'
       ]
     };
   }
@@ -19,7 +20,7 @@ class App extends React.Component {
     });
 
     return (
-      <div>{messageNodes}</div>
+      <div><h1>Hello, World!</h1>{messageNodes}</div>
     );
   }
 }
