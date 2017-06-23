@@ -1,0 +1,176 @@
+{
+  "Artist": {
+    "first": {
+      "picture": "http://placehold.it/32x32",
+      "Genre": "Rock",
+      "subscribers": 31,
+      "status": false,
+      "info": "Incididunt mollit Lorem officia ipsum ut minim. Culpa occaecat exercitation aliquip sit adipisicing reprehenderit elit aliqua amet nisi duis veniam consequat veniam. Aliqua id nisi ut deserunt irure exercitation enim sunt. Culpa voluptate ea mollit eu. Tempor nisi exercitation voluptate mollit labore dolore ut enim ex ipsum non velit cupidatat nisi.",
+      "name": {
+        "last": "Sheppard",
+        "first": "Davidson"
+      },
+      "id": "594f6c07a2616894cd065628"
+    },
+    "second": {
+      "picture": "http://placehold.it/32x32",
+      "Genre": "Hip-Hop",
+      "subscribers": 35,
+      "status": true,
+      "info": "Labore ipsum dolore officia magna veniam enim ad. Et esse ullamco et ipsum aliqua tempor sunt irure anim ut nisi irure. Minim adipisicing et veniam labore ad dolor aliquip ullamco voluptate mollit aute.",
+      "name": {
+        "last": "Dalton",
+        "first": "Ericka"
+      },
+      "id": "594f6c07af63aee260e7f8bb"
+    }
+  },
+
+  "tracks": {
+    "track1": {
+      "tags": [
+        "officia",
+        "officia",
+        "incididunt",
+        "veniam",
+        "amet"
+      ],
+      "lyrics": "Deserunt pariatur aliqua dolore veniam eiusmod tempor dolor eu nisi aliquip. Ullamco est sunt irure aliquip qui ad fugiat minim dolore. Do sit ipsum aliqua exercitation. Exercitation ea exercitation minim consectetur eu labore dolor incididunt. Proident exercitation eiusmod et commodo commodo. Ea id veniam eu culpa eiusmod irure laborum labore magna consectetur occaecat. Anim cillum consectetur culpa aute.\n\nDuis consectetur enim incididunt consequat ea eiusmod Lorem exercitation ut deserunt cillum qui exercitation. Do cupidatat mollit aliqua ut enim do. Ad occaecat deserunt pariatur labore amet deserunt pariatur consectetur laboris. Id Lorem aliqua dolore ad amet qui tempor cupidatat qui adipisicing culpa sunt sint ullamco. Id esse ex dolore reprehenderit nisi. Culpa aute exercitation incididunt ipsum aliqua nulla consequat sunt aliqua laborum.",
+      "audio_url": "http://placehold.it/audio",
+      "video_url": "http://placehold.it/video",
+      "type": "<SyntaxError: Unexpected token }>",
+      "size": 34,
+      "length": 36,
+      "times_downloaded": 28,
+      "times_played": 25,
+      "release_date": "Tuesday, August 23, 2016 8:22 AM",
+      "rating": 10,
+      "genre": "green",
+      "artwork": "http://placehold.it/32x32",
+      "Feature": [
+        {
+          "id": 0
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "ArtistId": "5950fdf17053ca795f01cb29",
+      "info": "Sit sunt incididunt eiusmod sit dolor. Elit laborum sunt consectetur voluptate eu sit quis voluptate nulla amet labore ullamco. Excepteur laboris labore eu ex est laboris quis ipsum est dolore reprehenderit eu et.",
+      "album": "nulla fugiat amet",
+      "title": "ipsum"
+    },
+
+  "track2": {
+    "tags": [
+      "minim",
+      "ullamco",
+      "labore",
+      "dolor",
+      "excepteur"
+    ],
+    "lyrics": "Veniam quis consequat irure ut. Ad reprehenderit occaecat enim quis ipsum est ad proident cillum exercitation officia. Adipisicing officia in ut ea fugiat adipisicing ex laborum ut ipsum Lorem.\n\nQui qui reprehenderit est tempor laborum elit amet qui minim non consectetur magna. Excepteur voluptate occaecat tempor enim non cupidatat ipsum dolor nostrud ad occaecat excepteur quis esse. Laborum nisi nulla sint cupidatat ad dolore occaecat occaecat. Aliquip enim tempor eiusmod eu incididunt sint culpa adipisicing et. Minim sint ipsum irure consequat cupidatat aliqua dolor. Minim et eiusmod cillum laborum nisi nostrud fugiat aute voluptate irure esse. Et elit ipsum elit esse voluptate sunt qui proident consectetur anim deserunt exercitation cupidatat dolore.",
+    "audio_url": "http://placehold.it/audio",
+    "video_url": "http://placehold.it/video",
+    "type": "<SyntaxError: Unexpected token }>",
+    "size": 27,
+    "length": 56,
+    "times_downloaded": 21,
+    "times_played": 21,
+    "release_date": "Saturday, April 5, 2014 8:40 PM",
+    "rating": 1,
+    "genre": "blue",
+    "artwork": "http://placehold.it/32x32",
+    "Feature": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ],
+    "ArtistId": "5950fdf16344355b0dd63843",
+    "info": "Aliqua aute deserunt commodo eu. Eiusmod exercitation nulla anim proident ut consequat tempor id occaecat ex laboris laboris. Et reprehenderit commodo nostrud anim.",
+    "album": "irure deserunt reprehenderit",
+    "title": "cillum"
+  },
+  "track3": {
+    "tags": [
+      "duis",
+      "aliqua",
+      "ad",
+      "est",
+      "labore"
+    ],
+    "lyrics": "Ex nulla laborum laboris minim voluptate id nostrud dolor incididunt dolore esse. Culpa laboris fugiat laboris nulla culpa. Aliqua minim adipisicing ex exercitation commodo veniam dolore exercitation proident duis ex magna anim. Fugiat proident cupidatat mollit commodo ipsum ea deserunt incididunt quis laboris nisi sint ut. In esse do quis incididunt adipisicing ipsum ex magna ad. Laboris deserunt veniam nulla sit. Anim ut id commodo Lorem tempor et et aliqua.\n\nEx occaecat ut Lorem proident ex excepteur Lorem nisi. Laboris incididunt velit culpa anim aute officia tempor irure incididunt amet veniam adipisicing. Culpa aute consequat ex laboris tempor cupidatat. Ad officia Lorem irure eu adipisicing exercitation duis dolore Lorem commodo occaecat ad eiusmod. Quis do qui proident aliquip ipsum cillum dolor ipsum.",
+    "audio_url": "http://placehold.it/audio",
+    "video_url": "http://placehold.it/video",
+    "type": "<SyntaxError: Unexpected token }>",
+    "size": 21,
+    "length": 23,
+    "times_downloaded": 36,
+    "times_played": 20,
+    "release_date": "Saturday, April 26, 2014 10:55 AM",
+    "rating": 4,
+    "genre": "brown",
+    "artwork": "http://placehold.it/32x32",
+    "Feature": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ],
+    "ArtistId": "5950fdf151a1e4fc8b3b2425",
+    "info": "Tempor est fugiat do aliquip proident aliqua officia officia quis laboris voluptate. Tempor sint ad aute ad mollit cillum nostrud proident cupidatat adipisicing officia velit dolore. Eu labore cillum voluptate cillum laboris amet anim laboris labore. Cupidatat culpa culpa laborum officia veniam sunt eu. Consequat laboris mollit in consectetur anim reprehenderit veniam. Voluptate pariatur esse sit adipisicing mollit non enim non et. Excepteur qui exercitation ut mollit officia exercitation incididunt consequat voluptate.",
+    "album": "ea deserunt nulla",
+    "title": "labore"
+  },
+  "track4":{
+    "tags": [
+      "quis",
+      "et",
+      "consectetur",
+      "consequat",
+      "aliquip"
+    ],
+    "lyrics": "Sunt occaecat laboris commodo ullamco ipsum. Occaecat enim culpa incididunt tempor reprehenderit aute. Esse ut minim eiusmod mollit fugiat consectetur. Cillum duis ea ex duis veniam ad et amet tempor.\n\nAd sint amet cillum aliqua nulla. Enim sit tempor non aliquip velit mollit. Aliquip cillum excepteur magna do commodo reprehenderit sunt culpa. Sunt dolore duis sunt culpa est consequat duis labore reprehenderit sunt. Nulla proident et voluptate esse non exercitation voluptate aliquip. Est magna laboris sint elit commodo.",
+    "audio_url": "http://placehold.it/audio",
+    "video_url": "http://placehold.it/video",
+    "type": "<SyntaxError: Unexpected token }>",
+    "size": 33,
+    "length": 37,
+    "times_downloaded": 24,
+    "times_played": 38,
+    "release_date": "Saturday, July 25, 2015 4:29 AM",
+    "rating": 8,
+    "genre": "green",
+    "artwork": "http://placehold.it/32x32",
+    "Feature": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ],
+    "ArtistId": "5950fdf11337a68f51baaab2",
+    "info": "Ullamco eiusmod minim amet reprehenderit nisi commodo sunt ea sit nisi. Esse consectetur excepteur in adipisicing pariatur consequat est irure duis qui non nostrud consectetur proident. Adipisicing amet incididunt exercitation nulla do deserunt eu. Nisi reprehenderit irure commodo laboris Lorem nulla labore occaecat occaecat Lorem officia.",
+    "album": "anim fugiat nostrud",
+    "title": "ea"
+  }
+  }
+}
