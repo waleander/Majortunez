@@ -2,18 +2,17 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports =  {
-  devtool: "cheap-module-source-map",
+  devtool: "cheap-eval-source-map",
   entry:{
     main: [
       'webpack-dev-server/client?http://localhost:8080',
-      'react-hot-loader/patch',
       'webpack/hot/only-dev-server',
       './src/main.js'
     ]
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, '/public'),
+    path: path.join(__dirname, 'public'),
     publicPath: '/public/'
   },
   plugins: [
@@ -26,11 +25,18 @@ module.exports =  {
     {
       test: /\.jsx?$/,
       include: [
-        path.resolve(__dirname, 'src')
+        path.join(__dirname, 'src')
       ],
       loader: 'babel-loader'
-    }
+    },
+     {
+       test: /\.s?css$/,
+        loader: 'style-loader!css-loader'
+     }
   ]
-}
+},
+  resolve: {
+     extensions: ['.js','.scss']
+   },
 
 }
