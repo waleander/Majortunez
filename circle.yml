@@ -6,4 +6,3 @@ dependencies:
   override:
     - npm install
     - npm test
-    - npm start
