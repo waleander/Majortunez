@@ -41,5 +41,8 @@
     "webpack-dev-server": "^2.5.0",
     "webpack-hot-middleware": "^2.18.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "eslintConfig": {
+   "extends": "./node_modules/react-scripts/config/eslint.js"
+ }
 }
