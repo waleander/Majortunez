@@ -2,9 +2,13 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
+  devtool: 'source-map',
   entry:{
     main: [
       './src/main.js'
+    ],
+    admin: [
+      './src/admin-main.js'
     ]
   },
   output: {
@@ -43,7 +47,7 @@ module.exports = {
         loaders: ['babel-loader?presets[]=react,presets[]=env']
       },
         // I am using SASS as Transpiler for style sheets
-      {test: /\.scss$/, loaders: ["style-loader", "css-loader", "sass-loader"]},
+      { test: /\.scss$/, loaders: ["style-loader", "css-loader", "sass-loader"] }
 
     ]
   }
