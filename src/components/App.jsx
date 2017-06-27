@@ -1,26 +1,18 @@
 import React from 'react';
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      messages: [
-        'Hi there, how are you. Hope you are fine',
-        'I am fine, and you. Where are you',
-        'well, thats cool, very very cool, cool'
-      ]
-    };
-  }
-
-  render(){
-    var messageNodes = this.state.messages.map((message) => {
-      return (
-        <div>{message}</div>
-      );
-    });
-
+  render() {
     return (
-      <div><h1>Hello, World!</h1>{messageNodes}</div>
+      <div>
+        <h1>Majortunez...</h1>
+        <p>watch this space</p>
+        <div className="circles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <span></span>
+        </div>
+      </div>
     );
   }
 }
