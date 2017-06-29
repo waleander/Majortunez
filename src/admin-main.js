@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import App from './components/admin/App.jsx';
+import App from './components/admin/Admin.jsx';
 import path from 'path';
 
 
