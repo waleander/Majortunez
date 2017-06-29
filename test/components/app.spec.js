@@ -9,7 +9,7 @@ describe('Component: App', () => {
       <App />
     );
 
-    expect(wrapper.find('h1').text()).toEqual('Hello, World!');
+    expect(wrapper.find('h1').text()).toEqual('Majortunez...');
   });
 
   it('should run a solid smoke test', () => {
