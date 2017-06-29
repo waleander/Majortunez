@@ -5,7 +5,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Majortunez...</h1>
-        <p>watch this space</p>
+        <p>The admin</p>
         <div className="circles">
           <div></div>
           <div></div>

@@ -9,4 +9,6 @@ app.use(express.static(__dirname + '/'));
    res.sendFile(path.join(__dirname, 'index.html'))
  });
 
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 8080, function(){
+  console.log("listening on port 8080");
+});
